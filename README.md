@@ -22,4 +22,4 @@ If a new update is released for Doom Eternal then Steam may apply that update at
 
 For this reason it's recommended to leave the downloaded depot files alone even though they take up a lot of space.
 
-If the depotdownloader fails to connect to Steam it may be because your firewall is blocking it. You should turn on firewall logging, run the script again, and then check the firewall logs.
+If the depotdownloader fails to connect to Steam it may be because your firewall is blocking it. You should turn on firewall logging, run the script again, and then check the firewall logs. For more information about configuring and using the firewall log, click [here](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/configure-the-windows-firewall-log).
