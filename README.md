@@ -21,3 +21,5 @@ If you do not trust [this script](doomgrader.ps1) or you do not trust [depotdown
 If a new update is released for Doom Eternal then Steam may apply that update at any time. If your downgraded installation gets re-upgraded then you will have to rerun the script.
 
 For this reason it's recommended to leave the downloaded depot files alone even though they take up a lot of space.
+
+If the depotdownloader fails to connect to Steam it may be because your firewall is blocking it. You should turn on firewall logging, run the script again, and then check the firewall logs.
