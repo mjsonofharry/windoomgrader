@@ -2,11 +2,11 @@
 
 windoomgrader is a Windows 10 reimplementation of doomgrader. It downgrades Doom Eternal to a stable version that does not use Denuvo Anti Cheat (DAC).
 
-Linux users should use [the original doomgrader script](https://github.com/lpww/doomgrader) instead of this.
-
-If you do not trust [this script](doomgrader.ps1) or you do not trust [depotdownloader](https://github.com/SteamRE/DepotDownloader) then **DO NOT RUN THIS**. The author assumes no responsibility whatsoever.
+Linux users should use [the original doomgrader script by Thomas Treffry](https://github.com/lpww/doomgrader) instead of this.
 
 ## Instructions
+
+If you do not trust [this script](doomgrader.ps1) or you do not trust [depotdownloader](https://github.com/SteamRE/DepotDownloader) then **DO NOT RUN THIS**. The author assumes no responsibility whatsoever.
 
 1. Install the latest [Microsoft .NET Core Runtime](https://dotnet.microsoft.com/download/dotnet-core/current/runtime).
 1. Install Doom Eternal using Steam but do not launch it.
@@ -15,6 +15,8 @@ If you do not trust [this script](doomgrader.ps1) or you do not trust [depotdown
     - A path for downloaded depots. Make sure you have about 35.9 GB of free space.
     - The path to your Doom Eternal installation. This needs about 43.8 GB of space.
     - Your Steam username, password, and (if applicable) a Steam Guard code. These are used by [depotdownloader](https://github.com/SteamRE/DepotDownloader).
+1. Wait for the script to finish. This may take a while depending on your internet connection.
+1. Once the script is done copying the game files to your install directory, you can run the game through Steam. You should see an ingame warning that the game is out of date and that online features are disabled.
 
 If a new update is released for Doom Eternal then Steam may apply that update at any time. If your downgraded installation gets re-upgraded then you will have to rerun the script.
 
