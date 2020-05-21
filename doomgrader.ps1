@@ -9,6 +9,8 @@ $DEPOT__CONFIGS = "782333"
 $DEPOT__SOUND = "782334"
 $DEPOT__VIDEO = "782335"
 $DEPOT__GAME_RESOURCES = "782336"
+$DEPOT__LIGHTDBS = "782337"
+$DEPOT__RCBOOTSTRAP = "782338"
 $DEPOT__LAUNCHER = "782339"
 
 $download_path = Read-Host 'Enter a path for downloaded depots (optional)'
@@ -52,6 +54,8 @@ FetchDowngrade -depot $DEPOT__CONFIGS -manifest "4686311672633195957"
 FetchDowngrade -depot $DEPOT__SOUND -manifest "2624212357815850298"
 FetchDowngrade -depot $DEPOT__VIDEO -manifest "8671913471625122045"
 FetchDowngrade -depot $DEPOT__GAME_RESOURCES -manifest "4248922069342282231"
+FetchDowngrade -depot $DEPOT__LIGHTDBS -manifest "122337607158713695"
+FetchDowngrade -depot $DEPOT__RCBOOTSTRAP -manifest "4899404039317730890"
 FetchDowngrade -depot $DEPOT__LAUNCHER -manifest "8937962102049582968"
 
 Write-Output "WARNING: Doom Eternal must be installed through Steam before the next step!"
